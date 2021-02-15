@@ -1,0 +1,241 @@
+@font-face {
+  font-family: Gilroy ExtraBold;
+  src: url(../fonts/Gilroy-ExtraBold.otf);
+}
+@font-face {
+  font-family: Gilroy Light;
+  src: url(../fonts/Gilroy-Light.otf);
+}
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+}
+
+body { font-family: Gilroy-SemiBold; font-size: 14px;}
+a:hover { text-decoration: none; }
+
+
+
+
+
+.bg-img { background-image: url("../assets/bg-img.svg"); background-position: center; background-size: cover; }
+
+.nav ul li { margin: 0px!important; }
+.nav ul li a { color: #383838; font-size: 14px; padding: 15px 26px; text-transform: uppercase; text-decoration: none; transition: all 0.5s; }
+.nav ul li a:hover { background-color: #065BE7; color: #fff; border-radius: 10px;}
+.nav ul li a.active { background-color: #065BE7; color: #fff; border-radius: 10px;}
+
+.text-bg { position: absolute; z-index: -1; top: 187px; left: 130px }
+
+
+.banner { padding: 70px 0; }
+.banner .banner-content p {display: flex; justify-content: center; text-align: left; padding-right: 20px; font: normal normal 800 46px/54px Gilroy; letter-spacing: 0.92px; color: #000000; opacity: 1; }
+.learn-more-btn { margin-top: 32px; font-size: 18px; color: #fff; background-color: #065BE7; padding: 18px 48px; font-family: Gilroy Light;  text-transform: uppercase; letter-spacing: 5px; box-shadow: 0px 10px 10px #065BE733;
+border-radius: 32px;  }
+
+
+
+.video-story { padding: 70px 0; }
+.video { position: relative; }
+.video-button { position: absolute; top: 42%; left: 47%; }
+
+
+.working-to-make { padding: 70px 0; }
+.content h2 { font: normal normal 400 34px/42px Gilroy; letter-spacing: 0.68px; color: #000000; }
+.content p { letter-spacing: 0.36px; color: #000000; font-family: Gilroy Light; font-size: 18px; padding-right: 45px; opacity: 1; }
+.content a { letter-spacing: 0.36px; color: #065BE7; font-size: 18px; text-transform: uppercase; font-family: Gilroy-SemiBold; }
+.content a:hover { text-decoration: underline; }
+.content .learn-more-btn { display: inline-block; margin-top: 32px; font-size: 18px; color: #fff; background-color: #065BE7; padding: 18px 48px; font-family: Gilroy Light;  text-transform: uppercase; letter-spacing: 5px; box-shadow: 0px 10px 10px #065BE733;
+border-radius: 32px; }
+
+
+.digital-therapeneutics { padding: 70px 0; }
+
+
+.applied-behaviour { padding: 70px 0; }
+
+
+.choose-us { padding: 70px 0; }
+.choose-us-card h3 { font: normal normal 600 16px/28px Gilroy; letter-spacing: 0.32px; color: #000000; opacity: 1;}
+.choose-us-card p { letter-spacing: 0.36px; color: #000000; font-family: Gilroy Light; font-size: 12px; line-height: 20px;}
+
+
+
+.work-with-us { padding: 70px 0; }
+
+
+
+.letest-news { padding: 70px 0; }
+.news-content h2 { font: normal normal 600 20px/28px Gilroy; letter-spacing: 0.4px; color: #000000; opacity: 1; }
+.news-content p { letter-spacing: 0.36px; color: #000000; font-family: Gilroy Light; font-size: 14px; letter-spacing: 0.28px; opacity: 1 }
+.news-content a { letter-spacing: 0.36px; color: #065BE7; font-size: 14px; text-transform: uppercase; font-family: Gilroy-SemiBold;  }
+.news-content a:hover { text-decoration: underline; }
+.news-card { position: relative; }
+.news-content { position: absolute; top: 280px; padding: 0 60px 0 20px;}
+
+
+
+.footer { background-color: #065BE7; margin-top: 70px;}
+.footer-content { padding: 10px 0; }
+.footer-nav ul li { padding-left: 37px; margin: 0px!important; }
+.footer-nav ul li a { color: #fff; font-size: 14px; text-transform: uppercase; text-decoration: none; }
+
+
+
+@media( max-width: 992px) { 
+	.navbar { display: block; }
+	.nav { display: none; }
+	.nav ul { width: 100%;}
+	.nav ul li{ display: block; padding: 12px;}
+	.nav ul li a{ display: block; font-size: 18px; color: #fff; }
+	.social-icon { display: none; }
+
+	.nav { padding: 15px 0; margin-top: 20px; background-color: #065BE7;  }
+
+	.news-content { top: 502px; left: 10px; }
+	.news-content h2 { font-size: 38px; line-height: 48px;  }
+	.news-content p { font-size: 28px;  }
+	.news-content a { font-size: 26px;  }
+
+	.text-bg { top: 26px; left: 0px; }
+
+	.path { display: none!important; }
+
+
+ }
+
+
+
+
+
+/***************************************Our-product*********************************/
+
+.benefits { padding: 70px 0; }
+
+
+.therapy-app { padding: 70px 0; }
+.therapy-app h2 { font: normal normal 800 30px Gilroy; letter-spacing: 0.6px; color: #000000; }
+
+
+/***************************************Our-Team*********************************/
+
+.team { padding: 70px 0; }
+.team-card { position: relative; }
+.team-card h2 { font: normal normal 800 34px/64px Gilroy; letter-spacing: 0.68px; color: #000000; opacity: 1; }
+.team-card span { font: normal normal 600 18px/26px Gilroy; font-family: Gilroy Light; display: block; margin-bottom: 15px; letter-spacing: 0.36px; color: #065BE7; opacity: 1; }
+.team-card p { letter-spacing: 0.36px; color: #000000; font-family: Gilroy Light; font-size: 18px; padding-right: 45px; opacity: 1; }
+.founder-card { position: absolute; top: 35px; left: 30px; right: 0; bottom: 0; }
+.founder-card a {letter-spacing: 0.36px; color: #065BE7; font-size: 18px; text-transform: uppercase; font-family: Gilroy-SemiBold; }
+
+.team-card-content { position: absolute; top: 15px; left: 30px; }
+.team-card-content a {letter-spacing: 0.36px; color: #065BE7; font-size: 18px; text-transform: uppercase; font-family: Gilroy-SemiBold; }
+.team-card-content h2 { font: normal normal 800 20px/28px Gilroy; letter-spacing: 0.4px; color: #000000; opacity: 1; }
+.team-card-content span { font: normal normal 600 16px/22px Gilroy; font-family: Gilroy Light; display: block; padding-bottom: 5px; letter-spacing: 0.32px; color: #065BE7; opacity: 1; }
+.team-card-content p { letter-spacing: 0.32px; color: #000000; font-family: Gilroy Light; font-size: 16px; padding-right: 60px; opacity: 1; }
+
+@media (max-width: 1234px){
+	.team-card-content p { font-size: 10px; padding-right: 52px; }
+}
+@media (max-width: 992px){
+	.team-card-content p { font-size: 24px; padding-right: 60px; }
+	.curv-bg { display: none; }
+	.founder-card { position: inherit; text-align: center!important; }
+	.team-card-content h2 { font-size: 28px; line-height: 38px; }
+	.team-card-content span { font-size: 22px; line-height: 28px; }
+}
+
+
+/***************************************Our-Team*********************************/
+
+.contact { padding: 70px 0; }
+.form-control { background-color: #F1F1F1; padding: 10px; border: none; border-radius: 0;  }
+
+.contact-card { position: absolute; top: 35px; left: 30px; right: 0; bottom: 0; display: flex; align-items: center;}
+
+/*
+****************************************ReCaptcha***********************************/
+
+.recaptcha { float: right; background-color: #0000001A; padding: 15px 30px; }
+
+.check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border: 2px solid #C1C1C1;
+border-radius: 2px;
+}	
+
+/* On mouse-over, add a grey background color */
+.check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check input:checked ~ .checkmark {
+  background-color: #2196F3;
+  border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+@media(max-width: 992px){ 
+	.contact-card { position: static; }
+ }
+
+
+
+
+@media (min-width: 1200px){
+	.container { max-width: 1300px; }
+}
